@@ -1,0 +1,54 @@
+body{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#light-dark-selection{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 2em;
+  width: 20em;
+  border:solid;
+  border-width: 1px;
+  border-color: black;
+}
+
+#switch{
+  position: relative;
+  cursor: pointer;
+}
+.slider{
+  position: absolute;
+  background-color: green;
+  margin-top: 2px;
+  width: 2.5em;
+  height: 0.9em;
+  border-radius: 1em;
+  transition: 0.2s;
+}
+.toggle{
+  background-color: brown;
+  position: absolute;
+  height: 1.2em;
+  width: 1.2em;
+  border-radius: 1em;
+  transition: 0.2s;
+}
+.slider-active{
+  position: absolute;
+  background-color:brown;
+  margin-top: 2px;
+  width: 2.5em;
+  height: 0.9em;
+  border-radius: 1em;
+}
+.toggle-active{
+  background-color: green;
+  position: absolute;
+  margin-left: 1.4em;
+  height: 1.2em;
+  width: 1.2em;
+  border-radius: 1em;
+}

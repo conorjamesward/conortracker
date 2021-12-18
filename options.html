@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conor Options</title>
+  <link rel="stylesheet" href="options.css"/>
+  <link rel="stylesheet" href="options-light.css" id="theme"/>
+  <!--
+    light colors:
+    pale high #FFFFFF
+    pale #F3F3F3
+    pale low #E0E0E0
+
+    light grey high #A7A0A0
+    light grey #9D9595
+    light grey dark #898080
+
+    light blue #0E8DAA 
+
+    dark blue #282A3E
+  -->
+
+  <!--
+    dark mode:
+
+    button #ADADAD
+    ?button hover #F3F3F3
+    
+    ?dark grey high #3D3D3D
+    dark grey #343434
+    dark gray low #1F1F1F
+
+    lighter gray high #5C5C5C
+    lighter grey #525252
+    ?lighter gray low #3D3D3D
+
+  
+    blue #4B9AAA
+    orange #C44C1C
+  -->
+</head>
+<body>
+  <div id="light-dark-selection">
+    <span id="light">Light Mode</span>
+    <div id="switch">
+      <span id="slider" class="slider || slider-active"></span>
+      <span id="toggle" class="toggle || toggle-active"></span>
+    </div>
+    <span id="dark">Dark Mode</span>
+  </div>
+  <script type="module" src="./options/options.js"></script>
+</body>
+</html>

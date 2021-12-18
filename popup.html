@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conor's Tasks</title>
+  <link rel="stylesheet" href="popup.css"/>
+  <link rel="stylesheet" href="popup-light.css" id="theme"/>
+</head>
+<body>
+  <div id="tasks">
+    <!--inject tasks here-->
+  </div>
+  <button id="newTaskElementsButton">+</button>
+  <div id="newTaskElements">
+    <label id="newTaskLabel">Task Name</label>
+    <input id="newTaskName" type="text">
+    <button id="addNewTaskButton">Add Task</button>
+    <div id="errorMessage"></div>
+  </div>
+  <script type="module" src="./popup/popup.js"></script>
+</body>
+</html>

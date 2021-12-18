@@ -1,0 +1,43 @@
+body{
+  background: linear-gradient(#A7A0A0 #9D9595, #898080);
+}
+
+button, input, .task{
+  background: linear-gradient(#eeeeee, #dfdfdf, #cecece);
+}
+
+button, input{
+  color: #282A3E;
+}
+
+button:hover{
+  color: #0E8DAA;
+}
+
+input:focus{
+  color: #282A3E;
+  outline: 0;
+  background: linear-gradient(#c6f8fa, #b1e0e2, #88cdcf);
+}
+
+.task:hover{
+  color: #0E8DAA;
+}
+
+.task{
+  color: #282A3E;
+  border-bottom: 1px solid #282A3E;
+}
+
+.switch{
+  background-color: #0E8DAA;
+  border-color: #282A3E;
+}
+
+.slider{
+  background-color: #3D3D3D;
+}
+
+label{
+  color: #282A3E;
+}

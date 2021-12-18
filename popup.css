@@ -1,0 +1,82 @@
+body{
+  min-width: 8em;
+  margin: 0%;
+}
+
+button{
+  height: 2em;
+  margin: auto; 
+  margin-top: 5px;
+  width: 100%;
+  border: none;
+}
+
+label{
+  display: block;
+  padding-top: 5px;
+  padding-left: 4px;
+  font-size: 1.2em;
+  margin: auto;
+}
+
+input{
+  height: 1.5em;
+  margin: auto;
+  margin-top: 0.25em;
+  margin-bottom: 3px;
+  width:15em;
+  border: none;
+}
+
+#errorMessage{
+  padding: 5px;;
+  display: none;
+  border: 2px solid red;
+  border-radius: 0.5em;
+  color: #f19090;
+  text-align: center;
+  font-size: 1.2em;
+  background-color: rgba(195, 108, 108, 0.507);
+}
+
+.task{
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  justify-content: space-between;
+  font-size: 1.1em;
+  padding: 5px;
+  min-height: 2em;
+  max-height: 5em;
+  margin-top: 5px;
+  margin: auto;
+  margin-bottom: 5px;
+}
+
+.switch{
+  margin-left: 5px;
+  margin-right: 0;
+  position: relative;
+  height: 0.9em;
+  width: 2.2em;
+  min-width: 2.2em;
+  border-radius: 2em;
+  border: solid;
+  border-width: 1px;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.slider{
+  position: absolute;
+  height: 0.8em;
+  width: 0.8em;
+  border-radius: 1em;
+  transition: .2s ease-in-out;
+}
+
+.switch input{
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
