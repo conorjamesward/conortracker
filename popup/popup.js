@@ -9,7 +9,7 @@ themeHandler('popup')
 //make new task elements visbible when there are no tasks to display
 chrome.storage.sync.get('tasks', (current) => {
   if(current.tasks.length === 0){
-    chrome.storage.sync.set({'newTaskElementsVisibile': true})
+    chrome.storage.sync.set({'newTaskElementsVisible': true})
     newTaskElementsVisibility(true)
   } else {
     newTaskElementsVisibility(false)
