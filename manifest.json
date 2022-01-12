@@ -1,9 +1,15 @@
 {
   "name": "Conor Tracker",
   "options_page": "options.html",
-  "description": "Build an Extension!",
+  "description": "Simple Task Tracker Extension!",
   "version": "1.0",
   "manifest_version": 3,
+  "icons":{
+    "16":"CT-16x16.png",
+    "32":"CT-32x32.png",
+    "192":"CT-192x192.png",
+    "512":"CT-512x512.png"
+  },
   "background":{
     "service_worker": "background.js"
   },

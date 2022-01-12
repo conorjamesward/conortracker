@@ -1,9 +1,9 @@
 body{
-  background: linear-gradient(#A7A0A0 #9D9595, #898080);
+  background: linear-gradient(#f8f6fa, #EEECF1, #d9d7db);
 }
 
 button, input, .task{
-  background: linear-gradient(#eeeeee, #dfdfdf, #cecece);
+  background: linear-gradient(#f8f6fa, #EEECF1, #d9d7db);
 }
 
 button, input{
@@ -11,17 +11,17 @@ button, input{
 }
 
 button:hover{
-  color: #0E8DAA;
+  color: #ADC3D1;
 }
 
 input:focus{
   color: #282A3E;
   outline: 0;
-  background: linear-gradient(#c6f8fa, #b1e0e2, #88cdcf);
+  background: linear-gradient(#dcecf6, #d2e1eb, #c0ccd4);
 }
 
 .task:hover{
-  color: #0E8DAA;
+  color: #ADC3D1;
 }
 
 .task{
@@ -30,7 +30,7 @@ input:focus{
 }
 
 .switch{
-  background-color: #0E8DAA;
+  background-color: #d2e1eb;
   border-color: #282A3E;
 }
 

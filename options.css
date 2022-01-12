@@ -1,54 +1,25 @@
-body{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
 #light-dark-selection{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  height: 2em;
-  width: 20em;
-  border:solid;
-  border-width: 1px;
-  border-color: black;
+  justify-content: center;
+  margin: 5em;
 }
 
-#switch{
-  position: relative;
+label{
   cursor: pointer;
+  font-size: large;
+  padding: 5px;
+  border-radius: 2em;
 }
-.slider{
-  position: absolute;
-  background-color: green;
-  margin-top: 2px;
-  width: 2.5em;
-  height: 0.9em;
-  border-radius: 1em;
-  transition: 0.2s;
+
+input{
+  visibility: hidden;
 }
-.toggle{
-  background-color: brown;
-  position: absolute;
-  height: 1.2em;
-  width: 1.2em;
-  border-radius: 1em;
-  transition: 0.2s;
+
+#info{
+  font-size: x-large;
+  padding: 10px;
 }
-.slider-active{
-  position: absolute;
-  background-color:brown;
-  margin-top: 2px;
-  width: 2.5em;
-  height: 0.9em;
-  border-radius: 1em;
-}
-.toggle-active{
-  background-color: green;
-  position: absolute;
-  margin-left: 1.4em;
-  height: 1.2em;
-  width: 1.2em;
-  border-radius: 1em;
+p{
+  text-align: center;
 }

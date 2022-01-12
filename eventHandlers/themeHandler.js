@@ -3,6 +3,8 @@ export const themeHandler = (currentFile) => {
   chrome.storage.sync.get('theme', (current) => {
     if(current.theme === 'dark'){
       theme.href=`${currentFile}-dark.css`
+    } else {
+      theme.href=`${currentFile}-light.css`
     }
   })
 }
